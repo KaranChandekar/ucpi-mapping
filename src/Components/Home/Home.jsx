@@ -111,7 +111,7 @@ function Home() {
               <p>Make your ucpiname now</p>
               <span class="asterisk_input"> </span>
               <input
-                placeholder="ucpi-id (name@ucpi)*"
+                placeholder="ucpi-id (name@ucpi)"
                 class="form-control"
                 id="name"
                 onChange={(e) => {
