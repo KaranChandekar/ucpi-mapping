@@ -46,7 +46,16 @@
   border: none;
   outline: none;
   border-bottom: 1px solid #7e8299;
-  padding: 35px 0 15px 0;
+  margin: 35px 0 15px 0;
+}
+
+.asterisk_input::after {
+  content: " *";
+  color: #e32;
+  /* position: absolute; */
+  margin: 0px 0px 0px -20px;
+  font-size: xx-large;
+  padding: 0 5px 0 0;
 }
 
 .form-control:active {

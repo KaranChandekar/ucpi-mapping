@@ -85,7 +85,7 @@ function Home() {
       .sendSignedTransaction(signT.rawTransaction)
       .then((data) => {
         console.log(data);
-     
+
         navigation("/greeting");
       });
     setLoading(false);
@@ -109,6 +109,7 @@ function Home() {
             <div class="form-box">
               <h1>UCPI name</h1>
               <p>Make your ucpiname now</p>
+              <span class="asterisk_input"> </span>
               <input
                 placeholder="ucpi-id (name@ucpi)*"
                 class="form-control"
@@ -174,6 +175,7 @@ function Home() {
                 value={xrp}
                 name="Email"
               />
+              <span class="asterisk_input"> </span>
               <input
                 placeholder="Resale Price"
                 class="form-control"
@@ -206,13 +208,13 @@ function Home() {
                     localStorage.set("xrp", xrp);
                     // localStorage.set("eth",evm);
                     console.log(evm);
-//                     getsign();
+                    //                     getsign();
                     // navigation("/greeting");
 
                     setLoading(true);
                     // get(id);
                     get(id).then((e) => {
-                     navigation("/greeting");
+                      navigation("/greeting");
                       console.log(e);
                     });
                   }
