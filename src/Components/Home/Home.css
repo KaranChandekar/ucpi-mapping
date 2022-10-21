@@ -111,9 +111,10 @@
     height: 80vh;
     width: 100%;
   }
-
+  
   .right-container {
     width: 100%;
+    z-index: 999;
   }
 
   .form-box {

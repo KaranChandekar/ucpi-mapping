@@ -30,13 +30,14 @@
 
 .text-container ul {
   margin-top: 50px;
+  text-align: left;
 }
 
 .text-container ul li {
   list-style: none;
   padding-bottom: 30px;
   font-size: 20px;
-  font-weight: 500;
+  font-weight: 900;
   color: #282c34;
 }
 
@@ -114,11 +115,11 @@
   }
 
   .text-wrapper {
-    margin-top: 20px;
+    margin-top: 40px;
   }
 
   .text-container h1 {
-    font-size: 35px;
+    font-size: 38px;
   }
 
   .text-container p {
@@ -126,10 +127,11 @@
   }
 
   .text-container ul {
-    margin-top: 10px;
+    margin-top: 40px;
   }
 
   .text-container ul li {
-    padding-bottom: 10px;
+    padding-bottom: 5px;
+    font-size: 18px;
   }
 }
