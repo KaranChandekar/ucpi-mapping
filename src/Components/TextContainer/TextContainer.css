@@ -29,12 +29,12 @@
 }
 
 .text-container ul {
+  list-style: disc;
   margin-top: 50px;
   text-align: left;
 }
 
 .text-container ul li {
-  list-style: none;
   padding-bottom: 30px;
   font-size: 20px;
   font-weight: 900;
@@ -84,11 +84,11 @@
     color: #282c34;
   }
 
-  .text-container ul {
+  .text-wrapper ul {
     margin-top: 70px;
   }
 
-  .text-container ul li {
+  .text-wrapper ul li {
     padding-bottom: 20px;
     font-size: 20px;
   }
@@ -115,7 +115,7 @@
   }
 
   .text-wrapper {
-    margin-top: 40px;
+    margin-top: 50px;
   }
 
   .text-container h1 {
@@ -127,11 +127,11 @@
   }
 
   .text-container ul {
-    margin-top: 40px;
+    margin-top: 50px;
   }
 
   .text-container ul li {
-    padding-bottom: 5px;
-    font-size: 18px;
+    margin: 0 0 5px 20px;
+    font-size: 20px;
   }
 }

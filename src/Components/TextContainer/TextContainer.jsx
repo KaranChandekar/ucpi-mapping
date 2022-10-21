@@ -10,9 +10,9 @@ const TextContainer = () => {
         </h1>
         <p>Readabe ID's "FREE"</p>
         <ul>
-          <li>• Connect Wallet and Claim Addresses</li>
-          <li>• Bid Resole Value for your ID's</li>
-          <li>• Use ID's in Partial Dapps</li>
+          <li>Connect Wallet and Claim Addresses</li>
+          <li>Bid Resole Value for your ID's</li>
+          <li>Use ID's in Partial Dapps</li>
         </ul>
       </div>
     </div>
