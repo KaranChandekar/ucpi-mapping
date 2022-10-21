@@ -52,9 +52,9 @@
 .asterisk_input::after {
   content: " *";
   color: #e32;
-  /* position: absolute; */
-  margin: 0px 0px 0px -20px;
-  font-size: xx-large;
+  position: absolute;
+  margin: 30px 0 0 -10px;
+  font-size: large;
   padding: 0 5px 0 0;
 }
 
@@ -89,6 +89,10 @@
 
   .form-control {
     padding-top: 1.5rem;
+  }
+
+  .asterisk_input::after {
+    margin: 18px 0 0 -10px;
   }
 }
 
