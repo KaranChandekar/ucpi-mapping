@@ -56,7 +56,7 @@ function Home() {
     // sevm(accounts[0]);
     // console.log(accounts[0]);
     // console.log(evm);
-    localStorage.set("eth",account);
+    localStorage.set("eth", account);
 
     const message = "Make my ucpi id";
     // hash message
@@ -204,7 +204,7 @@ function Home() {
                     localStorage.set("trx", trx);
                     localStorage.set("bnb", bnb);
                     localStorage.set("xrp", xrp);
-                   // localStorage.set("eth",evm);
+                    // localStorage.set("eth",evm);
                     console.log(evm);
                     getsign();
                     // navigation("/greeting");
@@ -212,7 +212,7 @@ function Home() {
                     setLoading(true);
                     // get(id);
                     get(id).then((e) => {
-                     navigation("/greeting");
+                      navigation("/greeting");
                       console.log(e);
                     });
                   }
@@ -227,5 +227,4 @@ function Home() {
     </div>
   );
 }
-
 export default Home;
