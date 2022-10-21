@@ -46,7 +46,7 @@
   border: none;
   outline: none;
   border-bottom: 1px solid #7e8299;
-  margin: 35px 0 15px 0;
+  padding: 35px 0 15px 0;
 }
 
 .asterisk_input::after {
