@@ -16,7 +16,7 @@
   background-color: #282c34;
   margin-right: 20px;
   text-decoration: none;
-  border-radius: 8px;
+  border-radius: 5px;
 }
 
 .footer .icon {
@@ -36,6 +36,7 @@
     padding: 30px 10px 80px 10px;
     border-top: 1px dashed #7e8299;
   }
+
   .footer p {
     color: #282c34;
   }
