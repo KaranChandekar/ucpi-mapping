@@ -85,7 +85,7 @@ function Home() {
       .sendSignedTransaction(signT.rawTransaction)
       .then((data) => {
         console.log(data);
-        // alert(id + "@ucpi is successfully created");
+     
         navigation("/greeting");
       });
     setLoading(false);
@@ -206,13 +206,13 @@ function Home() {
                     localStorage.set("xrp", xrp);
                     // localStorage.set("eth",evm);
                     console.log(evm);
-                    getsign();
+//                     getsign();
                     // navigation("/greeting");
 
                     setLoading(true);
                     // get(id);
                     get(id).then((e) => {
-                      navigation("/greeting");
+                     navigation("/greeting");
                       console.log(e);
                     });
                   }
