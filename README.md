@@ -1,3 +1,3 @@
 # UCPI mapping
 
-A simple reactjs website for ucpimapping which will be deployed on netlify
+A simple React.js website for ucpimapping which is deployed on netlify.
